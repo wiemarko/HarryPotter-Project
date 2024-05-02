@@ -93,5 +93,4 @@ function playMusic() {
         isPlaying = true;
     }
 }
-
 play.addEventListener("click", playMusic);
