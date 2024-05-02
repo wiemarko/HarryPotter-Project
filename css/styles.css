@@ -10965,7 +10965,7 @@ html {
   background-size: cover;
 }
 .callout h2, .callout .h2 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   font-weight: 700;
   display: block;
   max-width: 30rem;
@@ -11225,3 +11225,78 @@ footer.footer .social-link:hover {
 .back {
   transform: rotateY(180deg);
 }
+
+#portfolio-h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+#portfolio {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/port.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#play{
+font-weight: 100;
+font-size: 14px;
+color: #000000;
+background: linear-gradient(90deg, #b5a726 8%, #c500cc 100%);
+padding: 10px 31px;
+border: solid #000000 2px;
+box-shadow: rgb(36, 35, 35) 1px 5px 25px 5px;
+border-radius: 48px;
+transition : 714ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: lowercase;
+}
+
+#play:hover{
+transition : 714ms;
+padding: 10px 71px;
+transform : translateY(-0px);
+background: linear-gradient(90deg, #b5a726 8%, #c500cc 100%);
+color: #0066cc;
+border: solid 2px #5837b3;
+}
+
+
+#form-log{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 50;
+  font-size: 25px;
+  color: #000000;
+  background: linear-gradient(90deg, #b5a726 8%, #c500cc 100%);
+  padding: 10px 31px;
+  border: solid #000000 2px;
+  box-shadow: rgb(36, 35, 35) 1px 5px 25px 5px;
+  border-radius: 48px;
+  transition : 714ms;
+  transform: translateY(0);
+  display: center;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+  }
+  
+  #form-log:hover{
+  transition : 714ms;
+  padding: 10px 71px;
+  transform : translateY(-0px);
+  background: linear-gradient(90deg, #b5a726 8%, #c500cc 100%);
+  color: #000;
+  border: solid 2px #5837b3;
+  }
+  
