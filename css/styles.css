@@ -11325,3 +11325,79 @@ border: solid 2px #5837b3;
     opacity: 0.7;
 }
   
+
+#gryffindor-h1 {
+  text-align: center;
+  color: #bd1a51;
+  background-image: -webkit-linear-gradient(45deg, #bd1a51 36%, #f0df46 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 55px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gryffindor-img {
+  width: 700px;
+  height: 400px;
+  margin: 30px;
+}
+
+#gryffindor-text-1 {
+  margin-top: 100px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#gryffindor-text-2 {
+  margin-top: 150px;
+  margin-left: 35px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#gryffindor-text-3 {
+  margin-top: 140px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#gryffindor-text-4 {
+  margin-left: 35px;
+  margin-top: 150px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#gryffindor-page {
+  background: linear-gradient(90deg, rgba(13,9,76,0.9711572128851541) 0%, rgba(99,0,0,1) 100%);
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+#ravenclaw-text-1 {
+  margin-top: 60px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#ravenclaw-page {
+  background: linear-gradient(90deg, rgba(25,64,149,0.9711572128851541) 0%, rgba(172,149,39,1) 100%);
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+#ravenclaw-h1 {
+  text-align: center;
+  color: #bd1a51;
+  background-image: -webkit-linear-gradient(45deg, #1F4CB1 36%, #f0df46 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 55px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
