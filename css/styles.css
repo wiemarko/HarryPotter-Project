@@ -11401,3 +11401,84 @@ border: solid 2px #5837b3;
   font-size: 55px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#slytherin-text-1 {
+  margin-top: 160px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#slytherin-page {
+  background: linear-gradient(90deg, rgba(23,30,45,0.9627538515406162) 0%, rgba(81,172,39,1) 100%);
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+#slytherin-h1 {
+  text-align: center;
+  color: #bd1a51;
+  background-image: -webkit-linear-gradient(45deg, #0A0B09 36%, #4DA325 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 55px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hufflepuff-page {
+  background: linear-gradient(90deg, rgba(0,0,0,0.9627538515406162) 0%, rgba(199,194,57,1) 100%);
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+#hufflepuff-h1 {
+  text-align: center;
+  color: #bd1a51;
+  background-image: -webkit-linear-gradient(45deg, #282810 36%, #0B0B09 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 55px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.magic {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/magic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form-log-2{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 50;
+  font-size: 25px;
+  color: #7B7B77;
+  background: linear-gradient(90deg, #10100F 8%, #c500cc 100%);
+  padding: 10px 31px;
+  border: solid #000000 2px;
+  box-shadow: rgb(36, 35, 35) 1px 5px 25px 5px;
+  border-radius: 48px;
+  transition : 714ms;
+  transform: translateY(0);
+  display: center;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+  }
+  
+  #form-log-2:hover{
+  transition : 714ms;
+  padding: 10px 71px;
+  transform : translateY(-0px);
+  background: linear-gradient(90deg, #10100F 8%, #c500cc 100%);
+  color: #fff;
+  border: solid 2px #5837b3;
+  }
