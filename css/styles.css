@@ -11482,3 +11482,37 @@ border: solid 2px #5837b3;
   color: #fff;
   border: solid 2px #5837b3;
   }
+
+#magic-h1 {
+  font-size: 32px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color: #fff;
+}
+
+#magic-body {
+  color: #fff;
+  background-color: #212121;
+}
+
+#magic-mp4-1 {
+  width: 500px;
+  height: 350px;
+  margin: 30px;
+  margin-left: 80px;
+}
+
+#magic-h2 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 80px;
+  margin-left: 20px;
+  font-style: italic;
+  font-size: 34px;
+}
+
+#magic-text-1 {
+  margin-left: 18px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
