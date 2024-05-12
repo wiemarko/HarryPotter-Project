@@ -11498,7 +11498,7 @@ border: solid 2px #5837b3;
 #magic-mp4-1 {
   width: 500px;
   height: 350px;
-  margin: 30px;
+  margin-bottom: 60px;
   margin-left: 80px;
 }
 
@@ -11511,6 +11511,7 @@ border: solid 2px #5837b3;
 }
 
 #magic-text-1 {
+  margin-top: 60px;
   margin-left: 18px;
   font-size: large;
   font-family: 'Courier New', Courier, monospace;
