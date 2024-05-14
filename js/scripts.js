@@ -88,3 +88,25 @@ function playMusic() {
     }
 }
 play.addEventListener("click", playMusic);
+
+
+
+
+let play2 = document.getElementById("play-magic");
+let audio2 = new Audio("/assets/Lumos Maxima.mp3");
+let isPlaying2 = false;
+
+function playMusic2() {
+    if (isPlaying2) {
+        audio2.pause();
+        audio2.currentTime = 0;
+        isPlaying2 = false;
+    } else {
+        audio2.play2();
+        isPlaying2 = true;
+    }
+    
+}
+play2.addEventListener("click", playMusic2);
+
+
