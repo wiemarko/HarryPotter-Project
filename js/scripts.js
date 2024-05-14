@@ -71,6 +71,8 @@ function fadeIn(el, display) {
     })();
 };
 
+
+
 let play = document.getElementById("play");
 let audio = new Audio("/assets/Hedwigs Theme.mp3");
 let isPlaying = false;
@@ -86,5 +88,3 @@ function playMusic() {
     }
 }
 play.addEventListener("click", playMusic);
-
-
