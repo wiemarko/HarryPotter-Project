@@ -92,6 +92,7 @@ play.addEventListener("click", playMusic);
 
 
 
+
 let play2 = document.getElementById("play-magic");
 let audio2 = new Audio("/assets/Lumos Maxima.mp3");
 let isPlaying2 = false;
