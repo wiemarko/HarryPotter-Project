@@ -3,12 +3,12 @@ window.addEventListener('DOMContentLoaded', event => {
     const sidebarWrapper = document.getElementById('sidebar-wrapper');
     let scrollToTopVisible = false;
     const menuToggle = document.body.querySelector('.menu-toggle');
-    menuToggle.addEventListener('click', event => {
-        event.preventDefault();
-        sidebarWrapper.classList.toggle('active');
-        _toggleMenuIcon();
-        menuToggle.classList.toggle('active');
-    })
+    // menuToggle.addEventListener('click', event => {
+    //     event.preventDefault();
+    //     sidebarWrapper.classList.toggle('active');
+    //     _toggleMenuIcon();
+    //     menuToggle.classList.toggle('active');
+    // })
 
     var scrollTriggerList = [].slice.call(document.querySelectorAll('#sidebar-wrapper .js-scroll-trigger'));
     scrollTriggerList.map(scrollTrigger => {
@@ -87,14 +87,28 @@ function playMusic() {
         isPlaying = true;
     }
 }
+if (play != null) {
+    play.addEventListener("click", playMusic);
+}
 play.addEventListener("click", playMusic);
 
 
-document.getElementById("play-magic").addEventListener("click", function() {
-    var audio = new Audio('/assets/Lumos Maxima.mp3');
-    if (audio.paused) {
-      audio.play();
+
+let play2 = document.getElementById("play-magic");
+let audio2 = new Audio("/assets/Lumos Maxima.mp3");
+let isPlaying2 = false;
+
+function playMusic2() {
+    if (isPlaying2) {
+        audio2.pause();
+        audio2.currentTime = 0;
+        isPlaying2 = false;
     } else {
-      audio.pause();
+        audio2.play();
+        isPlaying2 = true;
     }
-  });
+}
+play2.addEventListener("click", playMusic2);
+
+
+
