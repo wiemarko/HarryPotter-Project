@@ -90,7 +90,7 @@ function playMusic() {
 if (play != null) {
     play.addEventListener("click", playMusic);
 }
-play.addEventListener("click", playMusic);
+
 
 
 
@@ -110,5 +110,36 @@ function playMusic2() {
 }
 play2.addEventListener("click", playMusic2);
 
+let play3 = document.getElementById("play-magic2");
+let audio3 = new Audio("/assets/Expecto Patronum.mp3");
+let isPlaying3 = false;
+
+function playMusic3() {
+    if (isPlaying3) {
+        audio3.pause();
+        audio3.currentTime = 0;
+        isPlaying3 = false;
+    } else {
+        audio3.play();
+        isPlaying3 = true;
+    }
+}
+play3.addEventListener("click", playMusic3);
+
+let play4 = document.getElementById("play-magic3");
+let audio4 = new Audio("/assets/Avada Kedavra.mp3");
+let isPlaying4 = false;
+
+function playMusic4() {
+    if (isPlaying4) {
+        audio4.pause();
+        audio4.currentTime = 0;
+        isPlaying4 = false;
+    } else {
+        audio4.play();
+        isPlaying3 = true;
+    }
+}
+play4.addEventListener("click", playMusic4);
 
 
